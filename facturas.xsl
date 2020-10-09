@@ -13,7 +13,7 @@
   </xsl:template>
   <xsl:template match="factura">
   <p>
-    <table border="1" width="500px">
+    <table border="1" width="500px" style="border-collapse: collapse;">
   <tr>
   <td style="border:0px;"></td>
     <td style="border:0px;"><b>Factura numero:</b> <xsl:value-of select="num"/> <b>Tipo:</b> <xsl:value-of select="@tipo"/><br></br>
