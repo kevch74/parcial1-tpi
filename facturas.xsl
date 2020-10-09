@@ -13,10 +13,10 @@
   </xsl:template>
   <xsl:template match="factura">
   <p>
-    <table border="1" width="500px">
+    <table style= "width: 500px; border-collapse:collapse;">
   <tr>
-  <td style="border:0px;"></td>
-    <td style="border:0px;"><b>Factura numero:</b> <xsl:value-of select="num"/> <b>Tipo:</b> <xsl:value-of select="@tipo"/><br></br>
+  <td></td>
+    <td><b>Factura numero:</b> <xsl:value-of select="num"/> <b>Tipo:</b> <xsl:value-of select="@tipo"/><br></br>
         <b>Cliente:</b><br></br>
         <b>Nombre:</b> <xsl:value-of select="cliente/nombre"/>
         <b>Documento:</b> <xsl:value-of select="cliente/documento"/><br></br>
@@ -41,10 +41,10 @@
   </tr>
   </xsl:for-each>
   <tr>
-  <td style="border:0px;"></td>
-  <td style="border:0px;"></td>
-  <td style="border:0px;"></td>
-  <td style="border:0px; font-size:20px;"><h4>Total</h4></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td style="font-size:20px;"><h4>Total</h4></td>
   <td><xsl:value-of select="total"/></td>
   </tr>
 </table>
