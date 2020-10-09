@@ -41,10 +41,10 @@
   </tr>
   </xsl:for-each>
   <tr>
-  <td style="border:0px;"></td>
-  <td style="border:0px;"></td>
-  <td style="border:0px;"></td>
-  <td style="border:0px; font-size:20px;"><h4>Total</h4></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td style="font-size:20px;"><h4>Total</h4></td>
   <td><xsl:value-of select="total"/></td>
   </tr>
 </table>
